@@ -1,0 +1,426 @@
+﻿departamento,municipio,vereda,area_ha,ha_quemadas_acumuladas,meses_con_quema,pct_promedio_anual
+Meta,Puerto Gaitán,Los Kioscos,166348.3,1981912.1,215,46.88
+Arauca,Cravo Norte,Lejanias De Juriepe,94163.2,1058122.9,181,44.21
+Arauca,Cravo Norte,Juriepe,43979.0,411330.5,160,36.8
+Meta,Puerto Gaitán,Tillava,84262.4,716017.1,165,33.43
+Meta,Puerto Gaitán,Comejenal,88969.7,738775.9,177,32.67
+Meta,Mapiripán,Las Brisas,20032.3,162164.4,105,31.85
+Tolima,Guamo,Las Mercedes El Oval,446.4,3082.7,34,27.17
+Vichada,La Primavera,Cucurital,223463.0,1531469.4,265,26.96
+Arauca,Cravo Norte,Los Pasados,34793.4,236891.7,107,26.79
+Meta,San Martín,Puerto Castro,164573.0,1073341.5,234,25.66
+Meta,Puerto Gaitán,Puerto Triunfo,128594.6,837293.2,166,25.62
+Vichada,Santa Rosalía,Guacacias,54443.6,347858.9,179,25.14
+Meta,Mapiripán,El Diamante,35784.7,225934.4,121,24.84
+Casanare,Paz De Ariporo,Resguardo Indígena,74533.1,457448.5,190,24.15
+Arauca,Cravo Norte,Santa Maria La Virgen,70841.7,430141.5,187,23.89
+Arauca,Cravo Norte,Cinaruco,38895.8,233403.4,136,23.61
+Vichada,Cumaribo,Parque Nal Natural El Tuparro,550496.7,3282935.3,248,23.46
+Vichada,Puerto Carreño,Santa Cecilia,258943.6,1540653.0,252,23.41
+Arauca,Cravo Norte,La Esperanza,62374.3,370697.5,148,23.38
+Vichada,La Primavera,Risaralda Aguas Claras,453878.5,2577457.2,271,22.34
+Meta,La Macarena,La Esperanza,4944.0,27971.5,61,22.26
+Vichada,Puerto Carreño,Rueda,199570.0,1108928.9,178,21.86
+Vichada,Puerto Carreño,Casuarito,384723.5,2058936.6,228,21.06
+Meta,San Martín,Brisas Del Manacacias,28802.9,146163.4,147,19.97
+Arauca,Arauca,Cinaruco,109075.7,545510.0,149,19.68
+Meta,Mapiripán,San Jorge,15484.9,76568.2,87,19.45
+Tolima,Guamo,Quinto Chipuelo,1860.3,8617.8,61,18.23
+Cesar,Chiriguaná,Ojo De Agua,2358.8,10605.5,21,17.69
+Meta,Puerto Gaitán,Santa Helena,175590.8,786622.0,178,17.63
+Vichada,Santa Rosalía,Nazareth,138219.1,598016.6,219,17.02
+Vichada,Santa Rosalía,Flori Amarillo,29623.4,123181.3,178,16.36
+Meta,San Martín,Siberia,32671.8,134965.1,133,16.25
+Vichada,Cumaribo,Merey,155701.9,642087.3,203,16.22
+Meta,Mapiripán,Canapure,9737.0,39754.4,74,16.06
+Meta,La Macarena,San José De Caquetania,102367.6,411490.7,159,15.82
+Vichada,Cumaribo,El Tapón Sur,199680.5,797336.1,230,15.71
+Meta,Puerto Gaitán,Carimagua,102715.2,403323.6,200,15.45
+Meta,Puerto Gaitán,Santa Catalina,60399.8,236743.5,131,15.42
+Meta,Puerto Gaitán,Matarraton,14539.3,55668.8,99,15.06
+Cesar,Becerril,Las Pampas (Indigenas),3183.3,12181.2,31,15.06
+Vichada,Puerto Carreño,Marandua,196437.1,750655.2,214,15.03
+Arauca,Arauquita,Normandia,3861.5,14484.0,31,14.76
+Meta,Mapiripán,Delirio,9587.9,35359.7,71,14.51
+Vichada,Santa Rosalía,Bordereño,30899.7,111144.7,118,14.15
+Meta,Mapiripán,Inspeccion De La Cooperativa,31447.3,112174.9,113,14.03
+Arauca,Arauquita,Caño Salas,13818.5,49241.1,55,14.02
+Vichada,Santa Rosalía,Pavanay,41038.3,145903.5,145,13.99
+Vichada,Cumaribo,Malicia Chiguagua,25274.4,89853.1,108,13.99
+Meta,Mapiripán,Caño Ovejas,62604.1,220359.1,120,13.85
+Meta,Mapiripán,La Esmeralda,23991.5,83104.1,93,13.63
+Vichada,La Primavera,La Trinchera,549354.5,1893648.9,275,13.56
+Meta,Puerto Gaitán,El Porvenir,31339.5,107750.9,123,13.53
+Arauca,Arauquita,El Sinai,3304.3,11174.8,19,13.31
+Meta,Puerto Gaitán,Murujuy,112253.2,376611.1,177,13.2
+Vichada,La Primavera,Matiyure,542350.0,1798652.9,267,13.05
+Vichada,Puerto Carreño,Puerto Carreño,173853.5,573854.2,219,12.99
+Meta,Mapiripán,Trin,8583.3,28212.4,47,12.93
+Casanare,Paz De Ariporo,San José De La Lopera,35929.7,117913.5,128,12.91
+Cesar,Becerril,Maracas Yoba,3350.4,10905.7,33,12.81
+Cesar,El Paso,Sabana La Victoria,2453.1,7976.9,30,12.79
+Casanare,Maní,La Poyata,19735.5,64042.3,89,12.77
+Arauca,Puerto Rondón,Aguas Claras,22786.3,72736.2,55,12.56
+Vichada,Cumaribo,Resguardo Merey La Veraita,3131.6,9982.2,46,12.54
+Casanare,Paz De Ariporo,Risaralda  Aguas Claras,83405.3,265830.0,198,12.54
+Meta,Mapiripán,La Realidad,11095.0,35292.4,55,12.52
+Vichada,Santa Rosalía,La Ladera,30274.8,96115.7,129,12.49
+Arauca,Tame,Culioto I,18420.5,58475.0,103,12.49
+Tolima,Espinal,Canastos,1362.1,4291.5,37,12.4
+Meta,Mapiripán,Sabanas De Guaracu,51865.2,162313.1,131,12.31
+Meta,Mapiripán,Sabanas De Miriti,29033.4,90857.2,110,12.31
+Vichada,Cumaribo,Tres Matas,46379.4,145012.5,130,12.3
+Casanare,Hato Corozal,El Samuco,23275.0,70470.8,80,11.91
+Vichada,Cumaribo,Matagrande,118761.8,355877.6,179,11.79
+Arauca,Tame,Bochalema,8409.8,25175.6,32,11.78
+Meta,Mapiripán,Esteros Altos,8410.5,25028.8,74,11.71
+Arauca,Arauca,Punto Fijo,24268.4,70857.8,86,11.49
+Meta,Puerto Gaitán,Cristalina,102786.9,299024.4,183,11.45
+Tolima,Guamo,Las Mercedes,1686.8,4845.5,42,11.3
+Vichada,Cumaribo,Meto Guarrojo,133532.8,377836.0,161,11.13
+Meta,Mapiripán,El Aguila,5820.1,16361.7,38,11.06
+Arauca,Arauca,Salto Del Lipa,15435.9,43278.8,50,11.03
+Casanare,Orocué,Cumaco,35798.0,99330.4,109,10.92
+Vichada,La Primavera,San Julian,79609.4,219722.0,165,10.86
+Meta,Puerto Gaitán,Nueva Fundaciones,38333.0,105743.0,166,10.85
+Cesar,Chiriguaná,Los Cerrajones,2045.4,5598.4,17,10.77
+Vichada,Cumaribo,Muribo,297533.8,811084.4,239,10.73
+Meta,Mapiripán,Bonanza,76703.3,208995.4,164,10.72
+Meta,Puerto Lleras,Candilejas,29612.1,80051.5,86,10.64
+Vichada,Santa Rosalía,El Triunfo,22436.6,60572.4,106,10.62
+Casanare,Paz De Ariporo,El Desierto,33472.2,90330.8,88,10.62
+Tolima,Espinal,Guadualejo,1721.3,4558.3,50,10.42
+Casanare,Maní,La Mapora,2649.4,7001.8,36,10.4
+Arauca,Tame,La Loberia,6878.0,17969.6,59,10.28
+Meta,Mapiripán,Inspeccion De Guacamayas,43695.7,113701.4,103,10.24
+Casanare,Orocué,La Culebra,39242.6,101893.7,96,10.22
+Casanare,Yopal,Gaviotas Agua Verde,7972.4,20546.6,45,10.14
+Vichada,Cumaribo,Resguardo Ríos Tomo Y Weberi,61747.8,158556.6,131,10.1
+Meta,Mapiripán,Santa Elena,10924.3,27982.8,61,10.08
+Meta,Puerto Gaitán,Alto Manacias,97424.7,246971.7,155,9.97
+Meta,San Martín,Santa Teresa Del Camoa,80227.7,203349.7,159,9.97
+Tolima,Flandes,Camala,1527.9,3868.3,16,9.96
+Casanare,Tauramena,La Urama,12302.2,31141.4,66,9.96
+Vichada,Santa Rosalía,Santa Rosalia,20800.4,52549.4,89,9.94
+Casanare,Maní,Guafal,20304.2,51041.3,73,9.89
+Tolima,Guamo,La Chamba,1101.0,2766.4,32,9.89
+Casanare,Orocué,La Independencia,11793.6,29470.7,53,9.83
+Casanare,Villanueva,Buenos Aires Alto,11257.0,28088.8,74,9.82
+Vichada,Cumaribo,Siripiana,58021.3,144044.4,139,9.77
+Cesar,Becerril,Sokorpa (La Mision Indigena),1770.8,4380.8,31,9.73
+Meta,Puerto López,Serrania,176329.5,435112.6,199,9.71
+Vichada,Cumaribo,Asocortomo,133769.1,328872.1,171,9.67
+Cesar,Becerril,Sikakao (Indigenas),4183.0,10274.3,36,9.66
+Arauca,Arauquita,Santander,2236.2,5485.7,16,9.65
+Meta,La Macarena,El Yari,49336.0,120805.7,89,9.63
+Meta,Mapiripán,San Antonio,8334.5,20376.7,48,9.62
+Arauca,Cravo Norte,Campo Abierto,21423.3,52103.0,62,9.57
+Cesar,El Copey,Sector Veredal 5,12757.2,30883.0,34,9.52
+Cesar,Becerril,Riveras Del Maracas,3422.1,8284.2,18,9.52
+Casanare,Maní,Chavinave,11302.4,27322.4,47,9.51
+Caquetá,San Vicente Del Caguán,Primavera Carrusel,2198.2,5213.0,15,9.33
+Meta,Fuente De Oro,Alto Guanayas,1469.2,3436.1,24,9.2
+Guaviare,San José Del Guaviare,Caño Negro,79668.6,185159.7,118,9.14
+Meta,La Macarena,California,6600.9,15262.0,51,9.1
+Meta,Mapiripán,Progreso,29751.1,68594.7,98,9.07
+Tolima,Guamo,La Isla,2302.3,5299.7,40,9.06
+Meta,Puerto López,Chaviva,22823.5,51982.2,117,8.96
+Meta,La Macarena,Aguazul,5798.3,13172.1,43,8.94
+Caquetá,San Vicente Del Caguán,Candilejas Noreste,16916.0,38061.7,64,8.85
+Meta,Puerto Gaitán,Alto Neblinas,19746.5,43776.0,112,8.72
+Cesar,Curumaní,Las Nubes,4789.6,10600.8,23,8.71
+Casanare,Maní,La Porfia,2855.4,6307.4,37,8.69
+Casanare,Orocué,Resguardo Indígena Paravare,2389.5,5227.4,18,8.61
+Cesar,El Copey,Sector Veredal 6,8049.5,17456.4,30,8.53
+Caquetá,San Vicente Del Caguán,Las Damas,21172.5,45735.7,40,8.5
+Arauca,Cravo Norte,Samuco,7250.3,15559.9,51,8.44
+Arauca,Arauca,La Comunidad,3346.0,7103.6,19,8.35
+Meta,La Macarena,El Eden Del Tigre,7709.6,16253.6,39,8.29
+Meta,Mapiripán,Inspeccion De Mielon,33482.1,70172.8,84,8.25
+Cesar,Becerril,Las Americas (Indigenas),1907.6,3943.2,22,8.13
+Cesar,Curumaní,Llamas Verdes,4655.8,9577.2,24,8.09
+Meta,La Macarena,El Cristal,8906.7,18306.0,18,8.09
+Caquetá,San Vicente Del Caguán,La Novia Celestial,20473.9,42005.9,39,8.07
+Arauca,Puerto Rondón,El Palmar,13710.6,28122.4,36,8.07
+Vichada,Cumaribo,Resguardo Muco Mayoragua,11026.9,22525.8,73,8.04
+Cesar,Valledupar,Caracoli,19121.6,39026.6,43,8.03
+Tolima,Guamo,Centro Chipuelo,1675.7,3418.0,38,8.03
+Arauca,Puerto Rondón,San Mateo,3986.4,8059.9,16,7.95
+Meta,La Macarena,San Martin,15796.9,31746.2,60,7.91
+Casanare,Orocué,La Pradera,14632.9,29378.8,65,7.9
+Meta,San Martín,Cumaralito,51702.2,103741.8,149,7.89
+Casanare,Orocué,El Suspiro,1765.7,3505.7,20,7.81
+Casanare,Hato Corozal,Resguardo Indígena Caño Mochuelo,28471.3,56053.1,103,7.75
+Meta,Fuente De Oro,Puerto Palma,1652.1,3245.0,25,7.73
+Tolima,Ortega,Chiquimina,3794.5,7447.3,20,7.72
+Meta,La Macarena,El Billar,4443.7,8669.0,26,7.68
+Casanare,Maní,El Limonal,23584.5,45995.5,93,7.67
+Meta,San Martín,La Cristalina,40571.7,78111.4,100,7.57
+Meta,La Macarena,Bajo Losada,7916.0,15224.1,41,7.57
+Vichada,Cumaribo,Chaparral Bajo,47677.7,91117.6,121,7.52
+Casanare,Orocué,Resguardo Indígena  El Consejo,5571.8,10623.9,32,7.5
+Vichada,Cumaribo,Loma Chaqueaba,19472.3,37007.9,62,7.48
+Cesar,La Jagua De Ibirico,Salsipuedes I,2246.9,4243.3,14,7.43
+Caquetá,San Vicente Del Caguán,El Retiro,7109.4,13354.5,20,7.39
+Cesar,Becerril,San Genaro,1910.8,3588.1,25,7.39
+Meta,Puerto Gaitán,Planas,127410.9,238877.8,153,7.38
+Casanare,Orocué,San Rafael De Guirripa,24622.2,46098.2,64,7.37
+Caquetá,San Vicente Del Caguán,Villalobos,8638.2,16141.6,21,7.35
+Vichada,Cumaribo,Resguardo San Luis Del Tomo,24736.5,46125.9,105,7.34
+Casanare,Villanueva,Buenos Aires Bajo,2035.8,3785.3,40,7.32
+Caquetá,San Vicente Del Caguán,Alto San Lorenzo,9258.0,17165.0,21,7.29
+Tolima,Espinal,Caimanera,1681.8,3093.2,40,7.24
+Caquetá,San Vicente Del Caguán,Candilejas Este,90048.5,165376.0,88,7.23
+Caquetá,San Vicente Del Caguán,El Sinai,9827.5,18007.4,25,7.21
+Casanare,Paz De Ariporo,Varsovia,129618.4,237208.6,164,7.2
+Cundinamarca,Nilo,Tolemaida,5921.9,10834.4,29,7.2
+Casanare,Hato Corozal,La Capilla,10645.1,19213.7,53,7.1
+Meta,Puerto Rico,Sausalito,12818.3,22954.4,30,7.05
+Meta,Villavicencio,Pompeya,9313.6,16665.6,69,7.04
+Meta,Puerto Lleras,Agua Linda,8931.6,15924.9,51,7.02
+Vichada,Cumaribo,Resguardo Santa Teresita Del Tuparro,205724.8,366410.9,174,7.01
+Cesar,Becerril,El Once,1700.5,3021.9,19,6.99
+Meta,La Macarena,El Triunfo Ii,11784.8,20912.2,55,6.98
+Meta,Mapiripán,La Libertad,15988.3,28283.9,57,6.96
+Cesar,El Paso,Sabanas De Bautista,2828.5,5003.3,25,6.96
+Bolívar,Arenal,La Sabana,1610.5,2848.2,14,6.96
+Meta,Puerto López,Yucao,92390.0,162932.5,152,6.94
+Casanare,Orocué,Campo Alegre,14526.2,25608.2,71,6.94
+Casanare,San Luis De Palenque,Miramar De Guinapalo,15426.5,27020.5,50,6.89
+Meta,Puerto Rico,Caño La Torre,22966.7,40069.7,58,6.86
+Casanare,Nunchía,Palmira,3372.6,5868.1,33,6.85
+Casanare,Orocué,Resguardo Indígena Duya,12952.1,22517.9,54,6.84
+Caquetá,San Vicente Del Caguán,Jerusalen,3714.9,6338.8,16,6.71
+Bolívar,Norosí,Norosí,6712.6,11433.7,14,6.7
+Meta,Puerto Rico,La Ye,5217.7,8813.6,18,6.65
+Magdalena,Ciénaga,El Uranio,5429.1,9130.4,16,6.62
+Casanare,Paz De Ariporo,Centro Gaitan,77239.1,129792.6,105,6.61
+Meta,Fuente De Oro,Bajo Guanayas,2191.4,3680.5,23,6.61
+Meta,Mapiripán,Betania,9721.5,16287.4,57,6.59
+Cesar,Chiriguaná,Aguas Frias,2278.3,3810.5,21,6.58
+Meta,La Macarena,Los Naranjos,4467.5,7467.5,20,6.58
+Cesar,Becerril,Las Nuevas Mercedes,6649.4,11013.9,29,6.52
+Casanare,Paz De Ariporo,San Sebastian,77715.3,128082.9,151,6.48
+Meta,La Macarena,Primavera Del Losada,3399.7,5547.1,14,6.42
+Cundinamarca,Fúquene,Laguna De Fuquene,1659.7,2707.2,24,6.42
+Cesar,Valledupar,Villa Germania,32502.3,52973.7,48,6.41
+Arauca,Arauquita,Santa Clara,4006.6,6525.9,20,6.41
+Caquetá,San Vicente Del Caguán,Palermito,3552.0,5756.4,14,6.38
+Arauca,Tame,Matarrala,10615.1,17169.0,25,6.36
+Guaviare,San José Del Guaviare,Boqueron,8199.0,13187.1,45,6.33
+Vichada,Cumaribo,Resguardo Chololobo Matatu,6343.1,10153.2,26,6.3
+Arauca,Arauca,Selvas Del Lipa,5431.4,8667.8,19,6.28
+Caquetá,San Vicente Del Caguán,Candilejas Norte,27691.6,44192.0,57,6.28
+Meta,Mapiripán,Danubio,9092.0,14451.2,51,6.25
+Caquetá,Cartagena Del Chairá,El Peneya,4711.5,7463.1,23,6.23
+Meta,Puerto Gaitán,Puente Arimena,26369.9,41691.1,96,6.22
+Meta,San Martín,Punto Nuevo,44045.3,69550.8,94,6.21
+Arauca,Cravo Norte,San José,13534.1,21211.3,45,6.17
+Cesar,Becerril,Monte Frio,2694.9,4218.4,21,6.16
+Meta,La Macarena,Brasilia,3686.4,5760.1,14,6.15
+Casanare,Tauramena,Tunupe,14094.2,22015.2,54,6.15
+Cesar,La Jagua De Ibirico,Boqueron,10550.0,16466.8,46,6.14
+Arauca,Arauquita,San Juan De Reinera,4205.4,6517.6,22,6.1
+Meta,La Macarena,El Triunfo I,35817.4,54855.8,79,6.03
+Meta,La Macarena,El Limonar,4694.9,7184.7,18,6.02
+Arauca,Tame,El Cerrito,13701.3,20848.1,51,5.99
+Casanare,Trinidad,Lagunitas,28197.3,42903.8,79,5.99
+Arauca,Tame,Puerto Gaitan,5291.1,7992.2,18,5.94
+Arauca,Puerto Rondón,La Ceiba,20948.2,31482.9,45,5.91
+Guaviare,San José Del Guaviare,San Luis,8569.6,12838.0,44,5.89
+Guaviare,San José Del Guaviare,Fundación,8395.6,12531.8,28,5.87
+Caquetá,San Vicente Del Caguán,La Estrella,70033.0,104123.3,42,5.85
+Arauca,Tame,Las Canoas,9719.4,14367.1,27,5.82
+Casanare,Orocué,Brisas De Mare Mare,14714.1,21711.2,59,5.81
+Cesar,Becerril,Caño Seco,2281.3,3347.8,14,5.77
+Cesar,Curumaní,Cuatro De Enero,4309.7,6302.9,19,5.75
+Vichada,Cumaribo,Resguardo Ríos Muco Y Guarrojo,85818.8,125485.9,120,5.75
+Meta,La Macarena,La Cabaña,4365.0,6381.2,23,5.75
+Casanare,Maní,Bevea,51199.8,73754.8,78,5.67
+Meta,Cumaral,Inspeccion Varsovia,1909.3,2747.9,19,5.66
+Arauca,Arauca,Bogotá,17070.2,24561.0,42,5.66
+Casanare,Orocué,La Libertad,13049.4,18765.6,57,5.66
+Meta,Mapiripán,Caño Jabon Alto,13263.6,19066.0,60,5.66
+Casanare,Tauramena,Piñalito,10957.8,15703.5,44,5.64
+Casanare,Orocué,Miralindo,11354.2,16269.3,36,5.64
+Meta,Puerto Gaitán,Bajo Yucao,28438.8,40677.1,85,5.63
+Meta,La Macarena,Getsemani,28065.8,39745.8,35,5.57
+Meta,Puerto López,Melua,76642.9,108371.1,133,5.56
+Meta,La Macarena,La Batalla,10069.3,14235.7,19,5.56
+Cesar,Valledupar,Aguas Blancas,52145.4,73316.6,51,5.53
+Arauca,Arauca,Mata De Gallina,20857.4,29079.0,31,5.49
+Meta,La Macarena,El Morichal,7409.3,10288.8,25,5.46
+Casanare,San Luis De Palenque,Los Jagueyes,46351.0,64257.3,72,5.45
+Meta,Puerto Concordia,Alto Mielon,5618.4,7781.1,36,5.45
+Meta,Puerto Lleras,Esmeralda I,22029.0,30407.0,43,5.43
+Arauca,Puerto Rondón,El Milagro,8513.5,11689.1,20,5.4
+Meta,Puerto Lleras,Chapurray,4200.6,5763.3,20,5.4
+Meta,Puerto Gaitán,San Miguel,37556.2,50544.3,128,5.3
+Córdoba,Cereté,C Martinez,3138.3,4205.0,22,5.27
+Casanare,San Luis De Palenque,Santa Teresa,10999.7,14738.0,53,5.27
+Meta,La Macarena,La Dorada,7728.0,10342.6,19,5.27
+La Guajira,Riohacha,Galán,5555.3,7431.5,34,5.26
+Vichada,Cumaribo,La Catorce,43858.3,58612.9,105,5.26
+Meta,La Macarena,Altamira,3590.5,4726.8,17,5.18
+Arauca,Arauca,Caracol,39255.2,51672.2,78,5.18
+Meta,Fuente De Oro,Los Arrecifes,2115.7,2769.6,28,5.15
+Arauca,Cravo Norte,Veladero,8230.1,10700.6,29,5.12
+Meta,Mapiripán,El Silencio,11703.5,15093.0,32,5.07
+Casanare,Trinidad,El Porvenir Del Guachiria,65575.4,84500.4,121,5.07
+Vichada,Cumaribo,Malicia La Libertad,29336.9,37631.9,78,5.05
+Casanare,Tauramena,Vigia Trompillos,31473.7,40239.8,92,5.03
+Arauca,Puerto Rondón,El Paisaje,11096.0,14024.4,30,4.97
+Arauca,Cravo Norte,Buenos Aires,37055.7,46779.5,78,4.97
+Cesar,Curumaní,Tosnován,3614.1,4542.6,17,4.95
+Meta,Puerto Concordia,Cruce Del Poporio,7365.5,9213.2,35,4.92
+Casanare,Hato Corozal,El Brillante,19874.5,24728.0,61,4.9
+Caquetá,San Vicente Del Caguán,Sincelejo,3894.2,4814.6,22,4.86
+Caquetá,Cartagena Del Chairá,Los Ángeles,2998.5,3664.0,21,4.81
+Meta,La Macarena,Alto Morrocoy,8497.6,10344.8,33,4.79
+Casanare,Maní,Mata De Piña,5070.8,6066.6,33,4.71
+Meta,La Macarena,Brisas,7878.8,9421.1,19,4.7
+Casanare,Maní,La Consigna,3266.7,3873.2,23,4.66
+Meta,Mapiripán,Esteros Bajos,9201.8,10732.8,45,4.59
+La Guajira,Riohacha,Matitas,15074.7,17542.5,34,4.58
+La Guajira,Riohacha,Juan Y Medio,14950.6,17312.5,42,4.56
+Casanare,Orocué,La Esmeralda,31178.0,35830.8,95,4.52
+Arauca,Cravo Norte,Cumare,20103.7,22982.4,55,4.5
+Casanare,Maní,La  Armenia,4001.7,4544.3,23,4.47
+Arauca,Arauquita,Maporal,10311.6,11674.0,26,4.45
+Meta,Puerto Lleras,Laureles,15485.5,17510.0,39,4.45
+Casanare,Paz De Ariporo,La Hermosa,42825.0,48141.6,115,4.42
+Vichada,Cumaribo,Nueva Colombia,35651.1,39975.0,94,4.41
+Caquetá,San Vicente Del Caguán,Ciudad Yari,110356.3,123734.8,63,4.41
+Cesar,Becerril,Caño Rodrigo,4440.5,4971.3,17,4.4
+Meta,La Macarena,Playa Rica,4059.9,4534.9,20,4.39
+Meta,La Macarena,El Retiro,4911.3,5478.0,21,4.39
+Casanare,Orocué,La Virgen,40680.1,45352.4,87,4.39
+Guaviare,Calamar,El Triunfo,8851.3,9856.9,19,4.38
+Casanare,Nunchía,Guanapalo,11679.8,12989.6,58,4.38
+Meta,Puerto Gaitán,Puerto Trujillo,196542.4,218184.7,128,4.37
+Arauca,Tame,Saparay,38452.6,42479.5,79,4.35
+Arauca,Tame,Los Aceites,12996.0,14346.3,24,4.34
+Valle Del Cauca,Cartago,Cauca,6681.0,7372.7,38,4.34
+Meta,La Macarena,Yaguara Ii,54220.3,59792.8,70,4.34
+Casanare,Orocué,Carrizales,6790.8,7472.3,23,4.33
+Meta,Puerto López,Navajas,54579.5,60048.4,93,4.33
+Arauca,Arauquita,Galaxias,5282.6,5804.0,18,4.32
+Casanare,Maní,San Joaquin De Garibay,30710.1,33600.9,66,4.3
+Magdalena,Aracataca,Cerro Azul,6561.0,7175.7,18,4.3
+Casanare,Maní,Santa Helena,17062.8,18656.7,51,4.3
+Caquetá,Cartagena Del Chairá,El Jordan,3844.5,4188.6,14,4.29
+Guaviare,San José Del Guaviare,Lejanias,7024.8,7571.3,14,4.24
+Meta,La Macarena,Potras Quebradon,5322.9,5726.1,18,4.23
+Meta,Villavicencio,Panderito,5898.1,6343.9,34,4.23
+Meta,Puerto Gaitán,San Pedro De Arimena,42327.4,45358.8,105,4.22
+Vichada,Cumaribo,Resguardo Saracure Cada,188779.7,201904.6,120,4.21
+Guaviare,San José Del Guaviare,Buenos Aires,5542.3,5919.8,22,4.2
+Casanare,Hato Corozal,Las Tapias,6953.5,7427.1,37,4.2
+Cesar,Curumaní,Nuevo Horizonte,6029.1,6413.5,17,4.19
+Arauca,Cravo Norte,Los Laureles,7307.9,7772.0,30,4.18
+Vichada,Cumaribo,Guacamayas,39119.8,41524.9,77,4.18
+Casanare,Orocué,Resguardo Indígena Saladillo,3297.5,3455.0,22,4.12
+Arauca,Tame,El Susto,4773.2,4993.4,17,4.12
+Casanare,Maní,Fronteras,19629.7,20524.9,56,4.11
+Cesar,El Paso,Cuatro Vientos,6883.6,7138.5,25,4.08
+Meta,Mapiripán,Caño Evaristo,18365.2,18999.2,52,4.07
+Casanare,Maní,El Campanero,13006.0,13434.4,52,4.06
+Bolívar,Morales,Corcovado,24070.9,24804.1,28,4.05
+Guaviare,Calamar,La Argelia,21761.1,22294.7,43,4.03
+Caquetá,San Vicente Del Caguán,El Guayabo,13901.4,14233.3,28,4.03
+Caquetá,Cartagena Del Chairá,Porvenir 1,2879.5,2942.4,21,4.02
+Casanare,Maní,La Coralia,6072.6,6071.4,36,3.93
+Casanare,Trinidad,Santa Maria Del Loro,33964.6,33372.9,91,3.87
+Meta,Puerto Rico,El Dorado,4019.7,3939.9,18,3.86
+Meta,Mapiripán,California,35829.1,34756.2,75,3.82
+Cesar,La Jagua De Ibirico,Jagua De Ibirico,7532.8,7273.2,25,3.8
+Magdalena,Pivijay,Garrapata,9290.0,8911.0,22,3.77
+Cesar,El Paso,El Valito,4736.7,4543.4,34,3.77
+Meta,La Macarena,La Consolata,6662.2,6366.1,17,3.76
+La Guajira,Riohacha,Tomarrazon,13559.8,12933.1,32,3.75
+Meta,Puerto Lleras,Morichito,8324.3,7873.9,28,3.72
+Casanare,Orocué,La Union,6457.0,6087.9,34,3.71
+Casanare,Orocué,Surimena,27922.9,26248.1,62,3.7
+Bolívar,Morales,Micoahumado,31418.5,29518.8,38,3.7
+Arauca,Tame,Morichal,5621.3,5252.9,17,3.68
+Vichada,Cumaribo,Vuelta Del Venado,37290.3,34680.9,76,3.66
+Arauca,Puerto Rondón,Maporal,17592.7,16231.5,35,3.63
+Casanare,Pore,San Rafael,16554.8,15228.6,38,3.62
+Bolívar,Río Viejo,Tierra Adentro,20769.7,18709.0,27,3.54
+Casanare,Maní,El Socorro,24539.7,22092.3,55,3.54
+Casanare,Hato Corozal,El Guafal,19180.9,17249.1,30,3.54
+Arauca,Tame,Puna Puna,6954.4,6237.4,40,3.53
+Casanare,Orocué,Claveles,8234.1,7376.3,24,3.52
+Meta,La Macarena,Aires Del Perdido,5707.2,5086.2,15,3.51
+Casanare,Hato Corozal,Corralito,17878.3,15903.7,42,3.5
+Casanare,Orocué,La Palmita,8896.5,7900.4,43,3.49
+Tolima,Ataco,El Viso,5645.1,4936.7,15,3.44
+Meta,Fuente De Oro,Puerto Limon,3363.9,2906.8,21,3.4
+Bolívar,Arenal,Soya,4433.2,3801.8,18,3.37
+Valle Del Cauca,Obando,Cruces,3172.3,2697.0,19,3.34
+Caquetá,San Vicente Del Caguán,El Camuya,45135.1,38308.9,67,3.34
+Guaviare,San José Del Guaviare,Catalina,7834.6,6616.6,23,3.32
+Vichada,Cumaribo,Palmarito,25196.3,21034.4,75,3.28
+Casanare,Orocué,Caracaro,7155.2,5935.5,32,3.26
+Bolívar,Morales,Paredes De Ororia,7866.5,6515.2,21,3.26
+Casanare,Paz De Ariporo,Elvecia,4846.1,3991.1,17,3.24
+Casanare,Yopal,Guacharacal,8619.2,7078.3,16,3.23
+Casanare,Paz De Ariporo,Morichales,53802.8,44173.2,91,3.23
+Casanare,Tauramena,Carupana,19446.1,15856.5,66,3.21
+Arauca,Puerto Rondón,La Esmeralda,10712.8,8698.5,24,3.19
+Casanare,Maní,Guayanas,19169.9,15512.3,52,3.18
+Caquetá,San Vicente Del Caguán,Palmichales 2,6224.4,5035.0,19,3.18
+Vichada,Cumaribo,Chaparral,5637.3,4558.7,29,3.18
+Caquetá,Cartagena Del Chairá,Buena Vista,5975.9,4831.9,14,3.18
+Casanare,San Luis De Palenque,El Romero,3674.6,2970.0,21,3.18
+Valle Del Cauca,Obando,Gachimbal,6649.2,5366.0,34,3.18
+Casanare,Hato Corozal,El Cafe,50309.2,40478.7,52,3.17
+Meta,Puerto López,Humapo,13864.7,11153.5,50,3.17
+La Guajira,San Juan Del Cesar,Caracoli,4206.1,3331.7,17,3.12
+Casanare,Hato Corozal,Altogracia,15892.9,12561.9,32,3.11
+Guaviare,Calamar,San Miguel,5867.2,4610.5,17,3.09
+Arauca,Arauca,Cabuyare,28148.4,22018.8,28,3.08
+Meta,La Macarena,Palestina,10302.6,8046.9,22,3.07
+Guaviare,San José Del Guaviare,La Orquidea,7088.1,5531.6,20,3.07
+Arauca,Arauquita,Fundación,4045.2,3144.8,14,3.06
+Casanare,Orocué,Aguaverde,13242.1,10267.4,53,3.05
+Vichada,Cumaribo,Resguardo Mamiyare,18738.2,14439.5,67,3.03
+Casanare,Orocué,Palmarito,15166.0,11676.0,53,3.03
+Caquetá,Cartagena Del Chairá,Llanitos,7460.6,5733.2,17,3.02
+Guaviare,San José Del Guaviare,El Chuamal,3647.5,2800.3,18,3.02
+Meta,Puerto Gaitán,Las Villas,3880.7,2976.2,22,3.02
+Guaviare,San José Del Guaviare,La Union,6082.4,4650.9,16,3.01
+Meta,Puerto Lleras,Tierra Grata,10092.6,7675.3,22,2.99
+Caquetá,Cartagena Del Chairá,Cumarales,6675.0,5057.6,20,2.98
+Cesar,Agustín Codazzi,El Milagro,96577.5,73138.1,65,2.98
+Cesar,Curumaní,El Porvenir,3870.4,2905.8,19,2.95
+Arauca,Puerto Rondón,Las Acacias,3551.0,2657.2,15,2.94
+Arauca,Arauca,La Pastora,4356.2,3259.1,18,2.94
+Valle Del Cauca,El Cerrito,El Placer,4578.4,3423.3,22,2.94
+Meta,La Macarena,Los Alpes,5430.2,4052.1,16,2.94
+Arauca,Arauca,Rosario,12243.8,9062.1,29,2.91
+Meta,La Macarena,Esperanza,5800.4,4273.5,15,2.9
+Casanare,Orocué,La Colonia,9028.6,6611.9,34,2.88
+Casanare,San Luis De Palenque,Pirichigua,31530.5,23076.6,44,2.88
+Meta,La Macarena,Villa Carmona,5456.2,3982.0,15,2.87
+Meta,Mapiripán,Tigre,4797.8,3487.8,20,2.86
+Arauca,Puerto Rondón,El Letrero,11178.1,8108.2,21,2.85
+La Guajira,Riohacha,Choles,11363.2,8210.7,19,2.84
+Arauca,Tame,San Joaquin,7107.8,5133.6,25,2.84
+Casanare,Hato Corozal,Corocito,7752.9,5585.1,30,2.83
+Arauca,Tame,Rincón Hondo,5501.8,3961.3,14,2.83
+Casanare,San Luis De Palenque,Barquereña,5240.0,3719.6,29,2.79
+Vichada,Cumaribo,El Diamante,20107.3,14061.8,57,2.75
+Magdalena,Pivijay,Placita,7831.0,5474.9,21,2.75
+Casanare,Paz De Ariporo,Los Camorucos,32799.0,22917.7,57,2.75
+Caquetá,Cartagena Del Chairá,La Playa,4028.6,2801.9,17,2.74
+Casanare,Paz De Ariporo,Rincon Hondo,3785.4,2630.7,15,2.73
+Arauca,Puerto Rondón,Caño Colorado,26190.5,18074.0,42,2.72
+Arauca,Cravo Norte,San Rafael,19073.3,13159.7,53,2.71
+Casanare,Paz De Ariporo,El Caribe,8955.7,6129.0,23,2.69
+Arauca,Arauca,Caño Limón,4535.6,3097.3,19,2.69
+Caquetá,Cartagena Del Chairá,Animas Altas,5386.4,3673.4,15,2.68
+Meta,La Macarena,El Jordan,12789.9,8689.5,29,2.67
+Guaviare,Calamar,Puerto Polaco I,4045.3,2746.1,16,2.67
+Arauca,Arauca,San José De Lipa,15134.7,10272.2,29,2.67
+Arauca,Arauca,Maporita,19680.2,13310.9,23,2.66
