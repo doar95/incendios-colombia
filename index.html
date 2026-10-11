@@ -45,6 +45,16 @@
   select:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
   .filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 10px; }
   .filtros .ancho { grid-column: 1 / -1; }
+  .tiempo .fila { display: flex; align-items: center; gap: 10px; }
+  .tiempo input[type=range] { flex: 1; min-width: 0; accent-color: var(--acento); height: 28px; margin: 0; }
+  #play { flex: none; width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--acento); color: #fff; font-size: 14px; cursor: pointer; line-height: 1; }
+  #play:hover { background: #7f0019; }
+  #anio-t { color: var(--tinta); font-size: 14px; }
+  .tiempo .extremos { display: flex; justify-content: space-between; font-size: 11px; color: var(--tinta-suave); padding-left: 48px; }
+  .tiempo .opciones { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 6px; }
+  .tiempo .opciones label { display: inline-flex; align-items: center; gap: 5px; font-weight: 400; font-size: 13px; color: var(--tinta); margin: 0; cursor: pointer; }
+  .tiempo .opciones label[hidden] { display: none; }
+  .tiempo .opciones input { accent-color: var(--acento); margin: 0; }
   .buscador { position: relative; }
   #sugerencias {
     position: absolute; z-index: 5; left: 0; right: 0; top: 100%; margin: 4px 0 0; padding: 4px; list-style: none;
@@ -110,16 +120,29 @@
         <option value="manchas" selected>Manchas quemadas</option>
         <option value="veredas">Veredas por indicador</option>
       </select></div>
-    <div class="ancho"><label for="kpi" id="kpi-t">Indicador</label>
+    <div class="ancho" id="kpi-caja"><label for="kpi">Indicador</label>
       <select id="kpi">
         <option value="pct" selected>Porcentaje de la vereda quemado</option>
         <option value="ha">Hectáreas quemadas</option>
         <option value="meses">Meses con quema</option>
       </select></div>
-    <div><label for="periodo">Período</label><select id="periodo"></select></div>
+    <div class="ancho tiempo">
+      <label for="anio">Año: <span id="anio-t"></span></label>
+      <div class="fila">
+        <button type="button" id="play" aria-label="Reproducir la serie">▶</button>
+        <input type="range" id="anio" step="1">
+      </div>
+      <div class="extremos"><span id="anio-min"></span><span id="anio-max"></span></div>
+      <div class="opciones">
+        <label><input type="radio" name="paso" value="anio" checked> Avanzar por año</label>
+        <label><input type="radio" name="paso" value="mes"> Por mes</label>
+        <label id="todo-caja" hidden><input type="checkbox" id="todo"> Todo el período</label>
+      </div>
+      <select id="periodo" hidden></select>
+    </div>
     <div><label for="mes">Mes</label><select id="mes"></select></div>
     <div><label for="depto">Departamento</label><select id="depto"></select></div>
-    <div><label for="mpio">Municipio</label><select id="mpio" disabled><option value="">Todos</option></select></div>
+    <div class="ancho"><label for="mpio">Municipio</label><select id="mpio" disabled><option value="">Todos</option></select></div>
     <div class="ancho buscador"><label for="buscar">Buscar vereda</label>
       <input type="search" id="buscar" placeholder="Escriba el nombre de la vereda" autocomplete="off">
       <ul id="sugerencias" hidden></ul></div>
@@ -145,6 +168,7 @@
     <p>Los valores son <strong>área quemada detectada por satélite</strong>, no una medición en terreno ni el lugar donde empezó un incendio. Cada píxel del producto mide unos 500 m (cerca de 25 ha) y se marca completo como quemado o no quemado, así que las quemas pequeñas suelen subestimarse u omitirse, sobre todo en zona andina y donde hay mucha nubosidad.</p>
     <p>En veredas de menos de <span class="peq"></span> ha (se muestran más tenues) el dato es poco confiable. El mapa sirve para comparar patrones entre veredas, meses y años.</p>
     <p>La vista de <strong>manchas</strong> dibuja la forma de lo que el satélite marcó como quemado. La vista de <strong>veredas</strong> colorea la vereda completa según el indicador, aunque solo se haya quemado una parte: úsela para comparar veredas, no para ver dónde fue la quema.</p>
+    <p>El botón ▶ recorre la serie en el tiempo, año por año o mes por mes dentro del año elegido. La primera pasada puede tener pausas mientras se descargan las manchas de cada año.</p>
     <p>El porcentaje de un año se limita a 100 %, porque una misma zona puede quemarse en dos meses distintos. En «todo el período» el porcentaje es un promedio: anual si no hay mes elegido, o de ese mes a lo largo de los años.</p>
     <p>Las veredas no tienen deslinde legal: los límites son la capa de referencia estadística del DANE, que en la Orinoquía y la Amazonía incluye polígonos muy grandes. El porcentaje usa cortes fijos (1, 5, 20 y 50 %), iguales en todos los años. Las hectáreas y los meses se reparten por quintiles de las veredas con quema en la vista actual, por eso esos cortes cambian con los filtros.</p>
     <p><strong>Fuentes:</strong> área quemada, <a href="https://lpdaac.usgs.gov/products/mcd64a1v061/">MCD64A1 v6.1 (NASA/UMD)</a>, obtenido vía <a href="https://puntosdecalor.ideam.gov.co/archivos-area-quemada/">IDEAM</a>. Veredas, <a href="https://geoportal.dane.gov.co/">DANE</a>, capa de referencia de veredas 2024. Áreas calculadas en EPSG:9377. <a href="datos/area_quemada_vereda_anio.csv">Descargar los datos por vereda y año (CSV)</a>. Actualizado: <span id="gen"></span>.</p>
@@ -171,7 +195,7 @@ let cargando = "", aviso = "";
 const veredas = new Map();        // id -> {n, m, mc, a, q, d, b, t}
 const cargados = new Map();       // código de depto -> [ids]
 const manchasCache = new Map();   // año -> geojson
-let fijada = null, seleccionada = null, ultimoAnio = -1;
+let fijada = null, seleccionada = null, ultimoAnio = -1, primerAnio = -1;
 
 function mostrarEstado() { const t = cargando || aviso; $("estado").hidden = !t; if (t) $("estado").textContent = t; }
 const enManchas = () => $("vista").value === "manchas";
@@ -232,7 +256,7 @@ function idsVisibles() {
 }
 
 function pintar() {
-  const kpi = $("kpi").value, yi = filtroAnio(), mi = filtroMes();
+  const kpi = enManchas() ? "ha" : $("kpi").value, yi = filtroAnio(), mi = filtroMes();
   const ids = idsVisibles();
   const vals = new Map(), positivos = [], candidatas = [];
   let sumaHa = 0, conQuema = 0;
@@ -284,7 +308,7 @@ function pintar() {
     $("ley-n").textContent = "El color cubre toda la vereda aunque solo se haya quemado una parte.";
 
   }
-  $("kpi-t").textContent = enManchas() ? "Indicador (ordena el ranking y la ficha)" : "Indicador (colorea las veredas y ordena el ranking)";
+  $("kpi-caja").hidden = enManchas();
 
   candidatas.sort((a, b) => b[1] - a[1] || b[2] - a[2]);
   $("rank").innerHTML = candidatas.slice(0, 10).map(([id, v]) => {
@@ -296,7 +320,7 @@ function pintar() {
   if (yi >= 0 && mi >= 0) { const idx = yi * 12 + mi; if (idx < idxPrimero || idx > idxUltimo) aviso = `No hay datos de ${MES_LARGO[mi]} de ${meta.anios[yi]}.`; }
   mostrarEstado();
   if (fijada !== null) ficha(fijada);
-  actualizarManchas();
+  return actualizarManchas();
 }
 
 function rotuloAnio(i) {
@@ -410,12 +434,66 @@ async function actualizarManchas() {
   for (const capa of ["manchas_f", "manchas_l"]) { map.setFilter(capa, filtro); map.setLayoutProperty(capa, "visibility", "visible"); }
 }
 
-function cambiarVista() {
-  const todo = $("periodo").querySelector('option[value="todo"]');
-  todo.disabled = enManchas();
-  todo.textContent = enManchas() ? "Todo (solo en vista de veredas)" : todo.dataset.texto;
-  if (enManchas() && $("periodo").value === "todo") $("periodo").value = String(ultimoAnio);
+function fijarAnio(i) {
+  $("periodo").value = String(i); $("anio").value = i; $("anio").disabled = false;
+  $("anio-t").textContent = rotuloAnio(i);
+}
+
+function cambiarTodo() {
+  detener();
+  if ($("todo").checked) {
+    $("periodo").value = "todo"; $("anio").disabled = true;
+    $("anio-t").textContent = `todo el período (${meta.anios[primerAnio]}–${meta.anios[ultimoAnio]})`;
+  } else fijarAnio(+$("anio").value);
   pintar();
+}
+
+function cambiarVista() {
+  detener();
+  $("todo-caja").hidden = enManchas();
+  if (enManchas() && $("todo").checked) { $("todo").checked = false; fijarAnio(+$("anio").value); }
+  pintar();
+}
+
+// --- Reproducción de la serie en el tiempo ---
+let reproduciendo = false, turno = 0;
+const dormir = ms => new Promise(r => setTimeout(r, ms));
+const mapaQuieto = () => new Promise(r => { const t = setTimeout(r, 4000); map.once("idle", () => { clearTimeout(t); r(); }); });
+
+function detener() {
+  reproduciendo = false; turno++;
+  $("play").textContent = "▶"; $("play").setAttribute("aria-label", "Reproducir la serie");
+}
+
+function precargar(yi) {
+  const anio = meta.anios[yi];
+  if (!enManchas() || anio === undefined || manchasCache.has(anio)) return;
+  fetch(`datos/q_${anio}.json`).then(r => r.json()).then(d => { if (!manchasCache.has(anio)) manchasCache.set(anio, d); }).catch(() => {});
+}
+
+async function reproducir() {
+  if (reproduciendo) { detener(); return; }
+  if ($("todo").checked) { $("todo").checked = false; fijarAnio(+$("anio").value); }
+  const porMes = document.querySelector('input[name="paso"]:checked').value === "mes";
+  reproduciendo = true; const miTurno = ++turno;
+  $("play").textContent = "❚❚"; $("play").setAttribute("aria-label", "Pausar");
+  const sigue = () => reproduciendo && turno === miTurno;
+  if (porMes) {
+    const yi = filtroAnio();
+    const ultimoMes = yi === ultimoAnio ? idxUltimo % 12 : 11, primerMes = yi === primerAnio ? idxPrimero % 12 : 0;
+    let m = filtroMes(); if (m < 0 || m >= ultimoMes) m = primerMes - 1;
+    while (sigue() && m < ultimoMes) {
+      m++; $("mes").value = String(m);
+      await pintar(); await mapaQuieto(); if (!sigue()) return; await dormir(900);
+    }
+  } else {
+    let i = +$("anio").value; if (i >= ultimoAnio) i = primerAnio - 1;
+    while (sigue() && i < ultimoAnio) {
+      i++; fijarAnio(i); precargar(i + 1);
+      await pintar(); await mapaQuieto(); if (!sigue()) return; await dormir(900);
+    }
+  }
+  if (sigue()) detener();
 }
 
 function llenarMunicipios() {
@@ -506,15 +584,16 @@ async function iniciar() {
   $("gen").textContent = meta.generado; $("ficha").innerHTML = FICHA_VACIA;
 
   const per = $("periodo");
-  const todo = new Option(`Todo (${meta.anios[0]}–${meta.anios[meta.anios.length - 1]})`, "todo");
-  todo.dataset.texto = todo.textContent; per.add(todo);
+  per.add(new Option("todo", "todo"));
   for (let i = meta.anios.length - 1; i >= 0; i--) {
     if (!meta.mesesPorAnio[i]) continue;
     if (ultimoAnio < 0) ultimoAnio = i;
+    primerAnio = i;
     per.add(new Option(rotuloAnio(i), String(i)));
   }
-  per.value = String(ultimoAnio);
-  todo.disabled = true; todo.textContent = "Todo (solo en vista de veredas)";
+  $("anio").min = primerAnio; $("anio").max = ultimoAnio;
+  $("anio-min").textContent = meta.anios[primerAnio]; $("anio-max").textContent = meta.anios[ultimoAnio];
+  fijarAnio(ultimoAnio);
   const mes = $("mes");
   mes.add(new Option("Todos", ""));
   MES_LARGO.forEach((n, i) => mes.add(new Option(n[0].toUpperCase() + n.slice(1), String(i))));
@@ -541,10 +620,13 @@ async function iniciar() {
       paint: { "line-color": MANCHA, "line-width": 0.8 } }, antesDe);
     await cambiarDepto();
     $("kpi").addEventListener("change", pintar);
-    $("periodo").addEventListener("change", pintar);
-    $("mes").addEventListener("change", pintar);
+    $("anio").addEventListener("input", () => { detener(); fijarAnio(+$("anio").value); pintar(); });
+    $("todo").addEventListener("change", cambiarTodo);
+    $("play").addEventListener("click", reproducir);
+    document.querySelectorAll('input[name="paso"]').forEach(r => r.addEventListener("change", detener));
+    $("mes").addEventListener("change", () => { detener(); pintar(); });
     $("vista").addEventListener("change", cambiarVista);
-    $("depto").addEventListener("change", cambiarDepto);
+    $("depto").addEventListener("change", () => { detener(); cambiarDepto(); });
     $("mpio").addEventListener("change", aplicarMunicipio);
     $("buscar").addEventListener("input", sugerir);
     $("buscar").addEventListener("focus", sugerir);
